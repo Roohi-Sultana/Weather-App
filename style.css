@@ -1,0 +1,53 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(lightyellow, lightgreen);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background: lightyellow;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+card h2,
+h4,
+h6 {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: brown;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.refresh {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-colour 0.3s ease;
+}
+
+.refresh:hover {
+    background-color: chocolate;
+}
